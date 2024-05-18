@@ -1,0 +1,70 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #333; /* Fondo negro */
+    color: #fff; /* Texto blanco */
+}
+
+h1 {
+    color: #fff; /* Título blanco */
+    text-align: center;
+}
+
+p {
+    color: #ccc; /* Texto gris claro */
+    text-align: center;
+}
+
+/* Container Styles */
+.container {
+    background-color: #444; /* Fondo gris oscuro */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    margin-top: 20px;
+    max-width: 1200px;
+    border-radius: 8px;
+}
+
+/* Card Styles */
+.card {
+    background-color: #555; /* Fondo de la tarjeta gris medio */
+    color: #fff; /* Texto blanco en la tarjeta */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s;
+    border: none;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-img-top {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.card-text {
+    color: #ddd; /* Texto de la tarjeta gris claro */
+}
+
+/* Button Styles */
+.btn-primary {
+    display: block;
+    width: fit-content;
+    margin: 20px auto;
+    background-color: #777; /* Fondo del botón gris oscuro */
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #999; /* Fondo del botón gris más claro al pasar el mouse */
+}
